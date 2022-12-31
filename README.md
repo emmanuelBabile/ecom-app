@@ -3,8 +3,11 @@
 <h3>I. Architecture du projet</h3>
 <img src="screens/architectureduprojet.jpg">
 
-<h3>II. Diagrammme de classe</h3>
-<img src="screens/diagrammedeclasse.jpg">
+<h3>II. Conception</h3>
+     <h4>A. Diagrammme de classe</h4>
+     <img src="screens/diagrammedeclasse.jpg">
+     <h4>B. Use case</h4>
+     <img src="screens/usecase.jpg">
 
 <h3>III. Création du service Customer</h3>
      <h4>A. Composants</h4>
