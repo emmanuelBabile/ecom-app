@@ -3,7 +3,10 @@
 <h3>I. Architecture du projet</h3>
 <img src="screens/architectureduprojet.jpg">
 
-<h3>II. Création du service Customer</h3>
+<h3>II. Diagrammme de classe</h3>
+<img src="screens/diagrammedeclasse.jpg">
+
+<h3>III. Création du service Customer</h3>
      <h4>A. Composants</h4>
           La création ce micro-service comporte :
           <h4>1. l'entité Customer : élément qui sera géré par le micro-service,
@@ -21,7 +24,7 @@
      <img src="screens/Customer-projection.jpg">
      Il y a récupération de données mais exclusivement celles spécifiées dans la partie code de la projection : l'id et le nom
 
-<h3>III. Création du service Inventory</h3>
+<h3>IV. Création du service Inventory</h3>
      <h4>A. Composants</h4>
           La création ce micro-service comporte :
           <h4>1. l'entité Product : élément qui sera géré par le micro-service,
@@ -36,11 +39,11 @@
      Il y a récupération de toutes les données : l'id, le nom, le prix et la quantité
 
 
-<h3>IV. Création de la gateway Spring Cloud</h3>
+<h3>V. Création de la gateway Spring Cloud</h3>
      <img src="screens/gateway.jpg">
 
 
-<h3>V. Création du service Eureka Discovery</h3>
+<h3>VI. Création du service Eureka Discovery</h3>
      <h4>A. La notation @EnableEurekaServer permet d'activer le service Discovery</h4>
      <img src="screens/eureka.jpg">
      <h4>B. Disponibilités des micro-services via Eureka Discovery</h4>
@@ -50,10 +53,10 @@
      <h4>D. Résultat du micro-service Inventory-service via la Gateway</h4>
      <img src="screens/inventory-gateway.jpg">
 
-<h3>VI. Configuration dynamique des routes de la gateway</h3>
+<h3>VII. Configuration dynamique des routes de la gateway</h3>
      <img src="screens/gateway-configuration.jpg">
 
-<h3>VII. Création du service Billing</h3>
+<h3>VIII. Création du service Billing</h3>
      <h4>A. Base de données bill-db</h4>
      <img src="screens/billdb1.jpg">
      <img src="screens/billdb2.jpg">
